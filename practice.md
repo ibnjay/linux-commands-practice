@@ -42,3 +42,18 @@ Bihar
 Chhattisgrah
 ```
 
+<b>Replace desh or grah with land using  `sed` </b>
+
+```
+sed -E 's/desh|grah/land/g' state.txt 
+```
+
+Expected output
+```
+Arunachal Praland
+Assam
+Andhra Praland
+Bihar
+Chhattisland
+```
+
