@@ -20,3 +20,28 @@ Remove file 1.log 2.log all the way 10.log
 ```
 echo {1..10}.log | xargs rm
 ```
+
+
+<h3>Basic math on linux</h3> 
+
+Add 1+2+3
+```
+echo "1+2+3" | bc
+```
+output
+
+```
+6
+```
+
+Adding 1 through 99
+
+```
+echo {1..99} | sed -E 's/ /+/g' | bc
+```
+
+output
+
+```
+4950
+```
