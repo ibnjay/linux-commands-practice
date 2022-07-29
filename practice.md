@@ -1,5 +1,5 @@
 
-create file state.txt with content
+create file called `state.txt` with content
 ```
 Arunachal Pradesh
 Assam
